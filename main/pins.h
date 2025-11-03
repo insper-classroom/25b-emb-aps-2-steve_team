@@ -1,12 +1,11 @@
 #ifndef PINS_H
 #define PINS_H
 
-const int BTN_PIN_R = 4;
-const int BTN_PIN_G = 5;
-const int BTN_PIN_B = 6;
-const int LED_PIN_R = 7;
-const int LED_PIN_G = 8;
-const int LED_PIN_B = 9;
+// ==== GPIOs dos botões ====
+#define GPIO_BTN1   6   // Look (MOVE)
+#define GPIO_BTN2   7   // LMB (bater)
+#define GPIO_BTN3   8   // RMB (usar)
+#define GPIO_BTN4   9   // SHIFT (agachar)
+#define GPIO_BTN5   10  // CTRL (correr)
 
-
-#endif // PINS_H
+#endif
